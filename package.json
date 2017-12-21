@@ -1,0 +1,32 @@
+{
+  "name": "node_intro_module4_lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timattut/node_intro_module4_lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timattut/node_intro_module4_lab/issues"
+  },
+  "homepage": "https://github.com/timattut/node_intro_module4_lab#readme",
+  "dependencies": {
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.2",
+    "mongodb": "~2.2.19",
+    "mongoose": "^4.13.7",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0"
+  }
+}
