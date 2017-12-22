@@ -11,8 +11,9 @@ The design of the project is based on the tutorial lab "Module 3 Tutorial: CRUD 
 
 The application has been divided into two modules, `app.js` and `server.js`. The first one exports an Express application containing a method, `connectDB`, to connect to Mongo database, in its `locals` property. The latter module calls the method and starts the app calling its `listen` method.
 
-The application runs on port `3000` and connects to
-`mongodb://localhost:27017/edx-course-db` using its `accounts` collection.  
+To start the application type `node server`. It runs on port `3000`,
+and connects to `mongodb://localhost:27017/edx-course-db` and
+uses its `accounts` collection.  
 
 
 > 2) How did you test your project to verify that it works?
